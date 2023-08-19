@@ -16,6 +16,7 @@ menu_1.add_separator()
 menu_1.add_command(label="하위 메뉴 1-3")
 menubar.add_cascade(label="상위 메뉴 1", menu=menu_1)
 
+# 외부윈도우 설정
 toplevel = tkinter.Toplevel(window, menu=menubar)
 toplevel.geometry("320x200+820+100")
 
